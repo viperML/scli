@@ -39,6 +39,9 @@
             nativeBuildInputs = [
               pkgs.which
             ];
+            buildInputs = [
+              pkgs.s2n-tls
+            ];
           };
 
       devShells.${system}.myshell =
