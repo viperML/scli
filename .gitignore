@@ -1,5 +1,11 @@
 *result*
 /.direnv
+/.vscode
+/.metals
+.bloop
+/project/project
+metals.sbt
+
 dist/*
 target/
 lib_managed/
