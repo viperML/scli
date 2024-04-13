@@ -10,12 +10,15 @@ lazy val root = project
   .settings(
     scalaVersion := "3.3.1",
     libraryDependencies ++= Seq(
-      "org.typelevel" %% "cats-core" % "2.10.0",
+      "org.typelevel" %%% "cats-core" % "2.10.0",
       "com.armanbilge" %%% "epollcat" % "0.1.6",
 
-      "org.typelevel" %% "cats-effect" % "3.5.3",
-      "org.typelevel" %% "cats-effect-kernel" % "3.5.3",
-      "org.typelevel" %% "cats-effect-std" % "3.5.3"
+      "org.typelevel" %%% "cats-effect" % "3.5.3",
+      "org.typelevel" %%% "cats-effect-kernel" % "3.5.3",
+      "org.typelevel" %%% "cats-effect-std" % "3.5.3",
+
+      "com.outr" %%% "scribe" % "3.13.2",
+      "com.outr" %%% "scribe-cats" % "3.13.2",
     ),
 
     nativeConfig ~= { c =>

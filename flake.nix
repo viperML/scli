@@ -25,7 +25,7 @@
             pname = "scli";
             version = "0.1.0";
             src = ./.;
-            depsSha256 = "sha256-kMKbtWpUhC3Em+skS2q7LblugLf8JwHs1araUr5bkJ8=";
+            depsSha256 = "sha256-LJS2FFpIJKLZM2CPQQ+bbaxK0H/HR08ZdV6D3kqb2q4=";
             env.NIX_CFLAGS_COMPILE = "-Wno-unused-command-line-argument";
             hardeningDisable = [ "fortify" ];
             buildPhase = ''
